@@ -14,5 +14,6 @@ public class Calculo {
 
         System.out.println("Impresion: " + calculoSueldo.getColacion() + "Sueldo Base: " + calculoSueldo.SueldoBase + "Gratificacion: " + calculoSueldo.Gratificacion);
         System.out.println("Impresion: " + calculoSueldo.liquido);
+        System.out.println("Prueba Impresion: " + calculoSueldo); // Calculo sueldo solo con toString , disminuye codigo linea 15
     }
 }
